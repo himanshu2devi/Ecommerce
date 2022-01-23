@@ -1,0 +1,22 @@
+ pip install virtualenv
+ virtualenv myenv
+  myenv\scripts\activate
+  pip install django
+  django-admin startproject backend
+  python manage.py runserver
+  python manage.py startapp base
+  add 'base.apps.BaseConfig' in setings.py installed apps
+  using functional base views
+  pip install djangorestframework
+  
+  go in fromtend
+  npm install axios
+
+python manage.py migrate
+python manage.py createsuperuser
+add models
+python manage.py makemigrations
+python manage.py migrate
+pip install pillow (for imagefield)
+add redux dev tools extention to browser
+npm install redux react-redux redux-thunk redux-devtools-extension
